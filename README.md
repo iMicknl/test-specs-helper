@@ -1,5 +1,6 @@
-### Test Specs Helper
+# Test Specs Helper
 While working on test specs for [Recognizers-Text](https://github.com/Microsoft/Recognizers-Text), I found out that it is a lot of work to change everything by hand. That's why I wrote a small CLI tool which can help with changing the structure in batch.
+_At the moment you can't pass variables to the command yet. You have to edit them in the script itself._
 
 ## Requirements
 * NodeJS 8+
@@ -20,7 +21,6 @@ A new `output` folder will be created within the directory. You can now review t
 ## Contribute?
 * I made a begin with a batch translating option for Google Translate + Bing Translate, feel free to contribute. 
 * I made a start with supporting the passing of variables to the command.
-
 
 ## License
 MIT
